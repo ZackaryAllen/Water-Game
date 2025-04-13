@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #e0f7fa;
+    margin: 0;
+    padding: 0;
+}
+
+#game {
+    margin: 20px auto;
+    max-width: 400px;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#droplet {
+    width: 100px;
+    height: 100px;
+    margin: 20px auto;
+    background-color: #00bcd4;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+}
+
+#droplet.happy {
+    background-color: #00bcd4;
+}
+
+#droplet.sad {
+    background-color: #0288d1;
+}
+
+#droplet.very-sad {
+    background-color: #01579b;
+}
+
+#stats {
+    margin: 20px 0;
+}
+
+#tasks button {
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #00796b;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#tasks button:hover {
+    background-color: #004d40;
+}
